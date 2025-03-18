@@ -19,7 +19,7 @@
 ### 知识库集合数据请求示例
 
 ```shell
-curl --location --request POST 'https://flow.illtamer.com/api/core/dataset/data/v2/list' \
+curl --location --request POST 'https://rag.illtamer.com/api/core/dataset/data/v2/list' \
 --header 'Authorization: Bearer {{authorization}}' \
 --header 'Content-Type: application/json' \
 --data-raw '{
